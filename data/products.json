@@ -1,0 +1,357 @@
+{
+	"data": [
+		{
+			"type": "guacamole",
+			"name": "Western Guacamole",
+			"id": "western-guac",
+			"src": "guac-western.jpg",
+			"description": "Chunky texture and homemade flavor seasoned with onion, red bell pepper and a touch of jalapeño",
+			"application": {
+				"idea": "Add Harvest Fresh™ Western Guacamole to a vegetarian wrap with white beans, red cabbage & cheddar.",
+				"link": "",
+				"image": "W_AvoBeanWrap.jpg"
+			},
+			"nutritionals": {
+				"image": "nutritional-western-guacamole.gif",
+				"pdf": "guac-western.pdf"
+			},
+			"skus": [
+				{
+					"sku": "1943425",
+					"pack_type": "12/1",
+					"portion": "Bag",
+					"weight": "12/14",
+					"case_dim": "11.375\" x 8.875\" x 6\"",
+					"case_cube": "0.30",
+					"cases": "17 x 8"
+				},
+				{
+					"sku": "029830",
+					"pack_type": "6/3",
+					"portion": "Bag",
+					"weight": "18/20",
+					"case_dim": "12.625\" x 8\" x 8.5\"",
+					"case_cube": "0.43",
+					"cases": "18 x 6"
+				},
+				{
+					"sku": "012641",
+					"pack_type": "6/2 - chilled",
+					"portion": "Bag",
+					"weight": "12/14",
+					"case_dim": "15.875\" x 9.875\" x 3.75\"",
+					"case_cube": "0.28",
+					"cases": "12 x 8"
+				}
+
+			]
+        },
+		{
+			"type": "guacamole",
+			"name": "Extreme Supreme®",
+			"id": "extreme-supreme",
+			"src": "guac-extreme.jpg",
+			"description": "Big avocado chunks with tomato, onion and cilantro for homemade texture and flavor.",
+			"application": {
+				"idea": "Mix Harvest Fresh™ Extreme Supreme® Guacamole with your favorite egg salad and serve on a pita with a side of fresh veggies.",
+				"link": "",
+				"image": "Ex_AvoEggSaladSand.jpg"
+			},
+			"nutritionals": {
+				"image": "nutritional-extreme-supreme.gif",
+				"pdf": "extreme-supreme.pdf"
+			},
+			"skus": [
+				{
+					"sku": "932666",
+					"pack_type": "12/1",
+					"portion": "Bag",
+					"weight": "12/14",
+					"case_dim": "11.375\" x 8.875\" x 6\"",
+					"case_cube": "0.30",
+					"cases": "17 x 8"
+				},
+				{
+					"sku": "935667",
+					"pack_type": "6/3",
+					"portion": "Bag",
+					"weight": "18/20",
+					"case_dim": "12.625\" x 8\" x 8.5\"",
+					"case_cube": "0.43",
+					"cases": "18 x 6"
+				},
+				{
+					"sku": "012672",
+					"pack_type": "6/2 - chilled",
+					"portion": "Bag",
+					"weight": "12/14",
+					"case_dim": "15.875\" x 9.875\" x 3.75\"",
+					"case_cube": "0.28",
+					"cases": "12 x 8"
+				}
+
+			]
+        },
+		{
+			"type": "guacamole",
+			"name": "Zesty Guacamole",
+			"id": "zesty-guac",
+			"src": "guac-zesty.jpg",
+			"description": "Featuring a blend of peppers for the perfect kick to delight and excite.",
+			"application": {
+				"idea": "Add Harvest Fresh™ Zesty Guacamole to Mac n' Cheese for a creamy, spicy twist on a traditional favorite.",
+				"link": "",
+				"image": "Z_ZestyMacCheese.jpg"
+			},
+			"nutritionals": {
+				"image": "nutritional-zesty-guacamole.gif",
+				"pdf": "guac-zesty.pdf"
+			},
+			"skus": [
+				{
+					"sku": "030294",
+					"pack_type": "12/1",
+					"portion": "Bag",
+					"weight": "12/14",
+					"case_dim": "11.375\" x 8.875\" x 6\"",
+					"case_cube": "0.30",
+					"cases": "17 x 8"
+				},
+				{
+					"sku": "030287",
+					"pack_type": "6/3",
+					"portion": "Bag",
+					"weight": "18/20",
+					"case_dim": "12.625\" x 8\" x 8.5\"",
+					"case_cube": "0.43",
+					"cases": "18 x 6"
+				}
+			]
+        },
+		{
+			"type": "guacamole",
+			"name": "Especial",
+			"id": "especial",
+			"src": "guac-especial.jpg",
+			"description": "Perfectly ripened avocado chunks with jalapeño, cilantro, garlic, tomato and seasonings. Simply thaw, mash in the bag and serve.",
+			"application": {
+				"idea": "Top a flatbread with Harvest Fresh™ Especial Guacamole and veggies for an especially delicious flatbread.",
+				"link": "",
+				"image": "Es_FlatBrdEspecial.jpg"
+			},
+			"nutritionals": {
+				"image": "nutritional-especial.gif",
+				"pdf": "especial.pdf"
+			},
+			"skus": [
+				{
+					"sku": "021087",
+					"pack_type": "15/1",
+					"portion": "Bag",
+					"weight": "15/17",
+					"case_dim": "15.625\" x 9.625\" x 9.25\"",
+					"case_cube": "0.91",
+					"cases": "9 x 9"
+				}
+			]
+        },
+		{
+			"type": "guacamole",
+			"name": "Original Guacamole",
+			"id": "original",
+			"src": "guac-original.jpg",
+			"description": "A smooth blend, crafted with brined jalapeño pepper, onion, salt and garlic.",
+			"application": {
+				"idea": "Blend Harvest Fresh™ Original Guacamole into an Asian-inspired dressing and top over a shrimp and mango salad  for the perfect lunch or dinner.",
+				"link": "",
+				"image": "ShrimpAvocadoSalad.jpg"
+			},
+			"nutritionals": {
+				"image": "nutritional-original.gif",
+				"pdf": ""
+			},
+			"skus": [
+				{
+					"sku": "034605",
+					"pack_type": "12/1",
+					"portion": "Bag",
+					"weight": "12/14",
+					"case_dim": "11.375\" x 8.875\" x 6\"",
+					"case_cube": "0.30",
+					"cases": "17 x 8"
+				}
+			]
+        },
+		{
+			"type": "pulp",
+			"name": "Chunky Pulp",
+			"id": "chunky",
+			"src": "pulp-chunky.jpg",
+			"description": "Made with only Hass avocados, lime juice concentrate and salt, this chunky pulp is versatile enough to top a burger, blend in a smoothie or mix into a house-made guacamole.",
+			"application": {
+				"idea": "Blend Harvest Fresh™ Chunky Avocado Pulp with fresh ginger, yogurt and mascarpone cheese for a sweet and creamy dressing to top mixed fruit or a spinach salad.",
+				"link": "",
+				"image": "SimplotAvocado_500x500.jpg"
+			},
+			"nutritionals": {
+				"image": "nutritional-chunky.gif",
+				"pdf": "chunk-pulp.pdf"
+			},
+			"skus": [
+				{
+					"sku": "032403",
+					"pack_type": "8/1",
+					"portion": "Tray",
+					"weight": "8/10",
+					"case_dim": "12.125\" x 10.875\" x 4.25\"",
+					"case_cube": "0.27",
+					"cases": "12 x 11"
+				},
+				{
+					"sku": "032410",
+					"pack_type": "8/1",
+					"portion": "Tray",
+					"weight": "16/18",
+					"case_dim": "14.125\" x 9.375\" x 7.625\"",
+					"case_cube": "0.51",
+					"cases": "12 x 8"
+				}
+			]
+        },
+		{
+			"type": "pulp",
+			"name": "Chunky Pulp",
+			"id": "chunky",
+			"src": "pulp-chunky.jpg",
+			"description": "Made with only Hass avocados, lime juice concentrate and salt, this chunky pulp is versatile enough to top a burger, blend in a smoothie or mix into a house-made guacamole.",
+			"application": {
+				"idea": "Blend Harvest Fresh™ Chunky Avocado Pulp with fresh ginger, yogurt and mascarpone cheese for a sweet and creamy dressing to top mixed fruit or a spinach salad.",
+				"link": "",
+				"image": "SimplotAvocado_500x500.jpg"
+			},
+			"nutritionals": {
+				"image": "nutritional-chunky.gif",
+				"pdf": "chunk-pulp.pdf"
+			},
+			"skus": [
+				{
+					"sku": "034605",
+					"pack_type": "12/1",
+					"portion": "Bag",
+					"weight": "12/14",
+					"case_dim": "11.375\" x 8.875\" x 6\"",
+					"case_cube": "0.30",
+					"cases": "17 x 8"
+				}
+			]
+        },
+		{
+			"type": "pulp",
+			"name": "Avocado Pulp",
+			"id": "pulp",
+			"src": "pulp.jpg",
+			"description": "Made with only Hass avocados, lime juice concentrate and salt, this smooth pulp is the perfect base for a signature dip, dressing or sauce.",
+			"application": {
+				"idea": "Blend Harvest Fresh™ Avocado Pulp with butter, garlic and fresh lemon juice for a twist on the classic Italian garlic mayonnaise. Top a steak or add to a focaccia roll stacked with Italain meats, cheese and roasted red peppers.",
+				"link": "",
+				"image": "S_SpcyFarmFieldBrk.jpg"
+			},
+			"nutritionals": {
+				"image": "nutritional-pulp.gif",
+				"pdf": "avocado-pulp.pdf"
+			},
+			"skus": [
+				{
+					"sku": "034605",
+					"pack_type": "12/1",
+					"portion": "Bag",
+					"weight": "12/14",
+					"case_dim": "11.375\" x 8.875\" x 6\"",
+					"case_cube": "0.30",
+					"cases": "17 x 8"
+				}
+			]
+        },
+		{
+			"type": "cut-fruit",
+			"name": "Avocado Dices",
+			"id": "dices",
+			"src": "dices.jpg",
+			"description": "Fresh Hass avocados, perfectly diced and ready for soups, salads and more.",
+			"application": {
+				"idea": "Add Harvest Fresh™ Avocado Dices to a rice bowl with mango and kimchee.",
+				"link": "",
+				"image": "d_KimchiRiceBowl.jpg"
+			},
+			"nutritionals": {
+				"image": "nutritional-dices.gif",
+				"pdf": "avocado-dices.pdf"
+			},
+			"skus": [
+				{
+					"sku": "029410",
+					"pack_type": "12/1",
+					"portion": "Bag",
+					"weight": "24/26",
+					"case_dim": "17.875\" x 10.8\" x 9.8\"",
+					"case_cube": "0.98",
+					"cases": "9 x 9"
+				}
+			]
+        },
+		{
+			"type": "cut-fruit",
+			"name": "Avocado Halves (Puru)",
+			"id": "halves",
+			"src": "halves.jpg",
+			"description": "Versatile Hass avocado halves ready for slicing, dicing or mashing for your signature guacamole.",
+			"application": {
+				"idea": "Fill a Harvest Fresh™ Avocado Half with spicy Andouille sausage, shrimp and sautéed pineapple for an unforgettable entrée.",
+				"link": "",
+				"image": "h_SizzlingShrimpSausage.jpg"
+			},
+			"nutritionals": {
+				"image": "nutritional-halves.gif",
+				"pdf": "avocado-halves.pdf"
+			},
+			"skus": [
+				{
+					"sku": "026938",
+					"pack_type": "12/2",
+					"portion": "Bag",
+					"weight": "24/26",
+					"case_dim": "17.875\" x 10.8\" x 9.8\"",
+					"case_cube": "1.16",
+					"cases": "9 x 8"
+				}
+			]
+        },
+		{
+			"type": "cut-fruit",
+			"name": "Avocado Slices",
+			"id": "slices",
+			"src": "slices.jpg",
+			"description": "Freshly sliced Hass avocados, with consistent thickness, are ideal for salads and sandwiches.",
+			"application": {
+				"idea": "Add Harvest Fresh™ Avocado Slices to a breakfast wrap filled with spicy potaoes and chopped hard boiled egg.",
+				"link": "",
+				"image": "S_SpcyFarmFieldBrk.jpg"
+			},
+			"nutritionals": {
+				"image": "nutritional-slices.gif",
+				"pdf": "avocado-slices.pdf"
+			},
+			"skus": [
+				{
+					"sku": "029403",
+					"pack_type": "12/2",
+					"portion": "Bag",
+					"weight": "24/26",
+					"case_dim": "17.875\" x 10.8\" x 12.7\"",
+					"case_cube": "1.29",
+					"cases": "9 x 7"
+				}
+			]
+        }
+	]
+}
