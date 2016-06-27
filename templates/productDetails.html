@@ -1,6 +1,6 @@
 <div class="farmer farmer-image-left" ng-repeat="product in products | filter:{ type: activeProductPage }">
   <figure>
-	<img src="images/guac/wester-guac.jpg"  height="502" width="400" alt="">
+	<img ng-src="/images/products/{{ product.src }}"  height="502" width="400" alt="">
   </figure>
   <div class="farmer-details" >
   <div class="farmer-details-content">

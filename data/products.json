@@ -220,33 +220,6 @@
         },
 		{
 			"type": "pulp",
-			"name": "Chunky Pulp",
-			"id": "chunky",
-			"src": "pulp-chunky.jpg",
-			"description": "Made with only Hass avocados, lime juice concentrate and salt, this chunky pulp is versatile enough to top a burger, blend in a smoothie or mix into a house-made guacamole.",
-			"application": {
-				"idea": "Blend Harvest Fresh™ Chunky Avocado Pulp with fresh ginger, yogurt and mascarpone cheese for a sweet and creamy dressing to top mixed fruit or a spinach salad.",
-				"link": "",
-				"image": "SimplotAvocado_500x500.jpg"
-			},
-			"nutritionals": {
-				"image": "nutritional-chunky.gif",
-				"pdf": "chunk-pulp.pdf"
-			},
-			"skus": [
-				{
-					"sku": "034605",
-					"pack_type": "12/1",
-					"portion": "Bag",
-					"weight": "12/14",
-					"case_dim": "11.375\" x 8.875\" x 6\"",
-					"case_cube": "0.30",
-					"cases": "17 x 8"
-				}
-			]
-        },
-		{
-			"type": "pulp",
 			"name": "Avocado Pulp",
 			"id": "pulp",
 			"src": "pulp.jpg",
