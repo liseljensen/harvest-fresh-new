@@ -2,424 +2,221 @@
 <html class="no-js" lang="">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Veggie Theme</title>
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="stylesheet" href="/styles/vendor.css">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/vendor/media-boxes/magnific-popup.css">
-    <link rel="stylesheet" href="/styles/vendor/media-boxes/mediaBoxes.css">
-    
-    <script src="js/vendor/modernizr.js"></script>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Veggie Theme</title>
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="stylesheet" href="styles/vendor.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/vendor/media-boxes/magnific-popup.css">
+	<link rel="stylesheet" href="styles/vendor/media-boxes/mediaBoxes.css">
+
+	<script src="js/vendor/modernizr.js"></script>
 </head>
 
 <body>
-    <!--[if lt IE 10]>
+	<!--[if lt IE 10]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <!-- Main Header -->
+	<!-- Main Header -->
 
-    <div class="wrap">
-        <header class="main-header-v1">
-            <div class="header-top-v-1">
-                <div class="container">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="images/hf_logo.png" height="164" width="164" alt="">
-                        </a>
-                    </div>
+	<div class="wrap">
+		<header class="main-header-v1">
+			<div class="header-top-v-1">
+				<div class="container">
+					<div class="logo">
+						<a href="index.html">
+							<img src="images/hf_logo.png" height="164" width="164" alt="">
+						</a>
+					</div>
 
-                    <div class="header-top-right-v1">
-                        <nav class="navigation">
-                            <a href="" class="menu-toogle"></a>
-                            <ul>
-                                <li><a href="/#/">Home</a></li>
-                                <li><a href="/#/guacamole">Guacamole</a></li>
-                                <li><a href="/#/pulp">Pulp</a></li>
-                                <li><a href="/#/cut-fruit">Cut Fruit</a></li>
-                                <li><a class="active" href="recipes.html">Recipes</a></li>
-                                <li><a href="/#/get-started">Get Started</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+					<div class="header-top-right-v1">
+						<nav class="navigation">
+							<a href="" class="menu-toogle"></a>
+							<ul>
+								<li><a href="/harvest-fresh-new/#/">Home</a></li>
+								<li><a href="/harvest-fresh-new/#/guacamole">Guacamole</a></li>
+								<li><a href="/harvest-fresh-new/#/pulp">Pulp</a></li>
+								<li><a href="/harvest-fresh-new/#/cut-fruit">Cut Fruit</a></li>
+								<li><a class="active" href="recipes.html">Recipes</a></li>
+								<li><a href="/harvest-fresh-new/#/get-started">Get Started</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
 
-            <div class="navigation-mobile">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/guacamole">Guacamole</a></li>
-                    <li><a href="/pulp">Pulp</a></li>
-                    <li><a href="/cut-fruit">Cut Fruit</a></li>
-                    <li><a href="recipes.html">Recipes</a></li>
-                    <li><a href="/get-started">Get Started</a></li>
-                </ul>
-            </div>
-            <div class="banner-v1 banner-image-container banner-inner" style="background-image: url(images/guac/guac-header.jpg)">
-                <img src="images/guac/guac-header.jpg" height="624" width="1920" class="banner-image" alt="">
-                <div class="banner-caption-v2">
-                    <h1>Recipes</h1>
-                </div>
-            </div>
+			<div class="navigation-mobile">
+				<ul>
+					<li><a href="/harvest-fresh-new/#/">Home</a></li>
+					<li><a href="/harvest-fresh-new/#/guacamole">Guacamole</a></li>
+					<li><a href="/harvest-fresh-new/#/pulp">Pulp</a></li>
+					<li><a href="/harvest-fresh-new/#/cut-fruit">Cut Fruit</a></li>
+					<li><a class="active" href="recipes.html">Recipes</a></li>
+					<li><a href="/harvest-fresh-new/#/get-started">Get Started</a></li>
+				</ul>
+			</div>
+			<div class="banner-v1 banner-image-container banner-inner" style="background-image: url(images/banner/guac-header.jpg)">
+				<img src="images/banner/guac-header.jpg" height="624" width="1920" class="banner-image" alt="">
+				<div class="banner-caption-v2">
+					<h1>Recipes</h1>
+				</div>
+			</div>
 
-        </header>
-        <!-- Main Header // -->
+		</header>
+		<!-- Main Header // -->
 
-        <div class="container">
+		<div class="container">
 
-            <div class="content grid-container">
+			<div class="content grid-container">
 
-                <!--  ================== MEDIA BOXES ================== -->
+				<!--  ================== MEDIA BOXES ================== -->
+				<div class="filters-container">
+					<h2>Sort by:</h2>
+					<input id="search" class="media-boxes-search" placeholder="Search By Keyword" type="text">
 
-                <div class="filters-container">
+					<div class="media-boxes-drop-down">
+						<label>Recipe Type:</label>
+						<div class="media-boxes-drop-down-header"><a class="selected" href="#" data-filter="*">All<span class="fa fa-sort-desc"></span></a></div>
+						<ul style="display: none;" class="media-boxes-drop-down-menu filters" data-id="third-filter">
+							<li><a class="selected" href="#" data-filter="*">All</a></li>
+							<li><a href="#" data-filter=".Breakfast">Breakfast</a></li>
+							<li><a href="#" data-filter=".Lunch">Lunch</a></li>
+							<li><a href="#" data-filter=".Dinner">Dinner</a></li>
+							<li><a href="#" data-filter=".Appetizer">Appetizer</a></li>
+							<li><a href="#" data-filter=".Dip">Dips</a></li>
+							<li><a href="#" data-filter=".Spread">Spreads</a></li>
+							<li><a href="#" data-filter=".Dressing">Dressings</a></li>
+						</ul>
+					</div>
 
-                    <input type="text" id="search" class="media-boxes-search" placeholder="Search By Keyword">
+					<div class="media-boxes-drop-down">
+						<label>Product Type:</label>
+						<div class="media-boxes-drop-down-header"><a class="selected" href="#" data-filter="*">All<span class="fa fa-sort-desc"></span></a></div>
+						<ul style="display: none;" class="media-boxes-drop-down-menu filters" data-id="first-filter">
+							<li><a class="selected" href="#" data-filter="*">All</a></li>
+							<li><a href="#" data-filter=".Dices">Dices</a></li>
+							<li><a href="#" data-filter=".Slices">Slices</a></li>
+							<li><a href="#" data-filter=".Halves">Halves</a></li>
+							<li><a href="#" data-filter=".Pulp">Pulp</a></li>
+							<li><a href="#" data-filter=".Especial">Guacamole Especial</a></li>
+							<li><a href="#" data-filter=".Extreme">Guacamole Extreme Supreme</a></li>
+							<li><a href="#" data-filter=".Western">Guacamole Western</a></li>
+							<li><a href="#" data-filter=".Zesty">Guacamole Zesty</a></li>
+						</ul>
+					</div>
 
-                    <div class="media-boxes-drop-down">
-                        <div class="media-boxes-drop-down-header">
-                        </div>
-                        <ul class="media-boxes-drop-down-menu filters" data-id="third-filter">
-                            <li><a class="selected" href="#" data-filter="*">All</a></li>
-                            <li><a href="#" data-filter=".red">Red</a></li>
-                            <li><a href="#" data-filter=".green">Green</a></li>
-                            <li><a href="#" data-filter=".blue">Blue</a></li>
-                        </ul>
-                    </div>
+				</div>
+				<div id="grid">
 
-                    <div class="media-boxes-drop-down">
-                        <div class="media-boxes-drop-down-header">
-                        </div>
-                        <ul class="media-boxes-drop-down-menu filters" data-id="second-filter">
-                            <li><a class="selected" href="#" data-filter="*">All</a></li>
-                            <li><a href="#" data-filter=".round">Round</a></li>
-                            <li><a href="#" data-filter=".square">Square</a></li>
-                        </ul>
-                    </div>
+					<!-- -------------------------- BOX MARKUP -------------------------- -->
+					<cfoutput query="recipes">
+						<div class="media-box<cfloop list=" #cat# " index='i' delimiters="| "> #i#</cfloop>">
+							<div class="media-box-image">
+								<div data-width="1" data-height="1" data-thumbnail="/avocados/content/img/recipes/#img#"></div>
+								<div data-type="inline" data-popup="###ref_name#"></div>
 
-                    <div class="media-boxes-drop-down">
-                        <div class="media-boxes-drop-down-header">
-                        </div>
-                        <ul class="media-boxes-drop-down-menu filters" data-id="first-filter">
-                            <li><a class="selected" href="#" data-filter="*">All</a></li>
-                            <li><a href="#" data-filter=".letter">Letters</a></li>
-                            <li><a href="#" data-filter=".number">Numbers</a></li>
-                            <li><a href="#" data-filter=".symbol">Symbol</a></li>
-                        </ul>
-                    </div>
+								<div class="thumbnail-overlay overlay-always-visible mb-open-popup">
+									<span class="overlay-title gradient">#name#</span>
 
-                </div>
+								</div>
+							</div>
+						</div>
+						<div id="#ref_name#" class="white-popup mfp-hide">
+							<cfinclude template="/avocados/recipes/detail/template.cfm">
+						</div>
+					</cfoutput>
 
-
-                <div id="grid">
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box red round letter">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                A
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box green square letter">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                Z
-                            </div>
-                        </div>
-                    </div>
+				</div>
+				<!-- #container -->
+			</div>
+			<!-- #recipeContent -->
 
 
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box blue round symbol">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
+			<!-- #container -->
 
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                +
-                            </div>
-                        </div>
-                    </div>
+			<!--  ================== END MEDIA BOXES ================== -->
 
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box red square number">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
+		</div>
 
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                4
-                            </div>
-                        </div>
-                    </div>
+	</div>
+	</div>
+
+	<!-- Content Section 5 // -->
+	<!-- Main Footer  -->
+	<footer class="main-footer">
+		<div class="footer-top">
+			<div class="container">
+				<!--  col -1  -->
+				<div class="col-md-3">
+					<div class="widget-2">
+						<h5>Corporate Links:</h5>
+						<ul>
+							<li>
+								<a href="http://www.simplot.com/about">About Simplot</a>
+							</li>
+							<li>
+								<a href="http://www.simplot.com/sustainability">Sustainability</a>
+							</li>
+							<li>
+								<a href="http://www.simplot.com/international">International</a>
+							</li>
+							<li>
+								<a href="http://www.simplot.com/careers">Careers</a>
+							</li>
+							<li>
+								<a href="http://www.simplot.com/news">News</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="col-md-12">
+					<nav class="footer-nav">
+						<ul class="nav navbar-nav">
+							<li><a href="http://www.simplot.com/contact_us">Contact Us</a></li>
+							<li><a href="http://www.simplot.com/copyright">Copyright</a></li>
+							<li><a href="http://www.simplot.com/privacy_policy">Privacy Policy</a></li>
+							<li><a href="http://www.simplot.com/terms_conditions">Terms &amp; Conditions</a></li>
+							<li><a href="http://employee.simplot.com" target="_blank">Employee Space</a></li>
+							<li><a href="https://simplotscholarships.versaic.com/" target="_blank">Scholarships</a></li>
+							<li><a href="http://www.facebook.com/jrsimplotcompany" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-12 text-center">
+					<p>© 2016 J.R. Simplot Company</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/vendor/vendor.js"></script>
+
+	<script src="/js/vendor/media-boxes/jquery.isotope.min.js"></script>
+	<script src="/js/vendor/media-boxes/jquery.imagesLoaded.min.js"></script>
+	<script src="/js/vendor/media-boxes/jquery.transit.min.js"></script>
+	<script src="/js/vendor/media-boxes/jquery.easing.js"></script>
+	<script src="/js/vendor/media-boxes/waypoints.min.js"></script>
+	<script src="/js/vendor/media-boxes/modernizr.custom.min.js"></script>
+	<script src="/js/vendor/media-boxes/jquery.magnific-popup.min.js"></script>
+	<script src="/js/vendor/media-boxes/jquery.mediaBoxes.js"></script>
 
 
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box green round number">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
+	<!--    <script src="js/main.js"></script>-->
 
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                2
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box blue square number">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                9
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box red round symbol">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                %
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box green square letter">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                D
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box blue round letter">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                N
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box red square symbol">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                &
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box green round number">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                4
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box blue square number">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                8
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box red round letter">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                E
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box green square symbol">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                #
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box blue round symbol">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                =
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box red square number">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                7
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box green round letter">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                R
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box blue square symbol">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                +
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box red round letter">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                G
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <div class="media-box green square number">
-                        <div class="media-box-image mb-open-popup">
-                            <div data-width="1" data-height="1" data-thumbnail="gallery/thumbnails/thumb-1.jpg"></div>
-
-                            <div class="thumbnail-overlay overlay-always-visible">
-                                7
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- #container -->
-
-                <!--  ================== END MEDIA BOXES ================== -->
-
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Content Section 5 // -->
-    <!-- Main Footer  -->
-    <footer class="main-footer">
-        <div class="footer-top">
-            <div class="container">
-                <!--  col -1  -->
-                <div class="col-md-3">
-                    <div class="widget-2">
-                        <h5>Corporate Links:</h5>
-                        <ul>
-                            <li>
-                                <a href="http://www.simplot.com/about">About Simplot</a>
-                            </li>
-                            <li>
-                                <a href="http://www.simplot.com/sustainability">Sustainability</a>
-                            </li>
-                            <li>
-                                <a href="http://www.simplot.com/international">International</a>
-                            </li>
-                            <li>
-                                <a href="http://www.simplot.com/careers">Careers</a>
-                            </li>
-                            <li>
-                                <a href="http://www.simplot.com/news">News</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="col-md-12">
-                    <nav class="footer-nav">
-                        <ul class="nav navbar-nav">
-                            <li><a href="http://www.simplot.com/contact_us">Contact Us</a></li>
-                            <li><a href="http://www.simplot.com/copyright">Copyright</a></li>
-                            <li><a href="http://www.simplot.com/privacy_policy">Privacy Policy</a></li>
-                            <li><a href="http://www.simplot.com/terms_conditions">Terms &amp; Conditions</a></li>
-                            <li><a href="http://employee.simplot.com" target="_blank">Employee Space</a></li>
-                            <li><a href="https://simplotscholarships.versaic.com/" target="_blank">Scholarships</a></li>
-                            <li><a href="http://www.facebook.com/jrsimplotcompany" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-md-12 text-center">
-                    <p>© 2016 J.R. Simplot Company</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script  src="js/vendor/vendor.js"></script>
-    
-    <script src="/js/vendor/media-boxes/jquery.isotope.min.js"></script>
-    <script src="/js/vendor/media-boxes/jquery.imagesLoaded.min.js"></script>
-    <script src="/js/vendor/media-boxes/jquery.transit.min.js"></script>
-    <script src="/js/vendor/media-boxes/jquery.easing.js"></script>
-    <script src="/js/vendor/media-boxes/waypoints.min.js"></script>
-    <script src="/js/vendor/media-boxes/modernizr.custom.min.js"></script>
-    <script src="/js/vendor/media-boxes/jquery.magnific-popup.min.js"></script>
-    <script src="/js/vendor/media-boxes/jquery.mediaBoxes.js"></script>
-    
-    
-<!--    <script src="js/main.js"></script>-->
-    
-    <script>
-        $('#grid').mediaBoxes({
-            filterContainer: '.filters',
-            search: '#search',
-            searchTarget: '.thumbnail-overlay',
-            boxesToLoadStart: 50,
-        });
-    </script>
+	<script>
+		$('#grid').mediaBoxes({
+			filterContainer: '.filters',
+			search: '#search',
+			searchTarget: '.thumbnail-overlay',
+			boxesToLoadStart: 50,
+		});
+	</script>
 </body>
 
 </html>

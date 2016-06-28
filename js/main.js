@@ -13,17 +13,17 @@ app.config(['$routeProvider', function ($routeProvider) {
 
     // Pages
     .when("/guacamole", {
-        templateUrl: "/partials/products.html"
+        templateUrl: "partials/products.html"
         , controller: "PageCtrl"
     })
 	
 	.when("/pulp", {
-        templateUrl: "/partials/products.html"
+        templateUrl: "partials/products.html"
         , controller: "PageCtrl"
     })
 	
 	.when("/cut-fruit", {
-        templateUrl: "/partials/products.html"
+        templateUrl: "partials/products.html"
         , controller: "PageCtrl"
     })
 	
@@ -33,7 +33,7 @@ app.config(['$routeProvider', function ($routeProvider) {
 //    })
 	
 	.when("/get-started", {
-        templateUrl: "/partials/get-started.html"
+        templateUrl: "partials/get-started.html"
         , controller: "PageCtrl"
     })
 	
@@ -56,19 +56,23 @@ app.run(function($rootScope, $location) {
 		
 		if($rootScope.currentPage === '/') {
 			$rootScope.isHome = true;
+			$rootScope.isGetStarted = false;
 		}
 		else if($rootScope.currentPage === '/guacamole') {
 			$rootScope.isHome = false;
+			$rootScope.isGetStarted = false;
 			$rootScope.bgImage = "guac-header.jpg";
 			$rootScope.pageTitle = "Guacamole";
 		}
 		else if($rootScope.currentPage === '/pulp') {
 			$rootScope.isHome = false;
+			$rootScope.isGetStarted = false;
 			$rootScope.bgImage = "guac-header.jpg";
 			$rootScope.pageTitle = "Pulp";
 		}
 		else if($rootScope.currentPage === '/cut-fruit') {
 			$rootScope.isHome = false;
+			$rootScope.isGetStarted = false;
 			$rootScope.bgImage = "guac-header.jpg";
 			$rootScope.pageTitle = "Cut Fruit";
 		}
@@ -79,6 +83,7 @@ app.run(function($rootScope, $location) {
 //		}
 		else if($rootScope.currentPage === '/get-started') {
 			$rootScope.isHome = false;
+			$rootScope.isGetStarted = true;
 			$rootScope.bgImage = "guac-header.jpg";
 			$rootScope.pageTitle = "Get Started";
 		}
@@ -99,37 +104,37 @@ app.controller("featuredRecipes", function ($scope, $window) {
     $scope.recipes = [
         {
             num: 1,
-            src: "/images/recipes/featured/AvoCoconutSmothie.jpg",
+            src: "images/recipes/featured/AvoCoconutSmothie.jpg",
             description: 'Avocado Coconut Smoothie',
             url_details: "good-choices"
         }
         , {
             num: 2,
-            src: "/images/recipes/featured/CouscousAvoSalad.jpg",
+            src: "images/recipes/featured/CouscousAvoSalad.jpg",
             description: 'Couscous and Avocado Salad',
             url_details: "careers"
         }
         , {
             num: 3,
-            src: "/images/recipes/featured/CouscousAvoSalad.jpg",
+            src: "images/recipes/featured/ChimichurriAvoDrsng.jpg",
             description: 'Chimichurri Avocado Dressing',
             url_details: "fert-app"
         }
         , {
             num: 4,
-            src: "/images/recipes/featured/SpcyFarmFieldBrk.jpg",
+            src: "images/recipes/featured/SpcyFarmFieldBrk.jpg",
             description: 'Spicy Farm & Field Breakfast',
             url_details: "fall-harvest"
         }
         , {
             num: 5,
-            src: "/images/recipes/featured/ZestyBrkSand.jpg",
+            src: "images/recipes/featured/ZestyBrkSand.jpg",
             description: 'Zesty Breakfast Sandwich',
             url_details: "wwl"
         }
         , {
             num: 6,
-            src: "/images/recipes/featured/AvocadoCrostini.jpg",
+            src: "images/recipes/featured/AvocadoCrostini.jpg",
             description: 'Avocado Crostini',
             url_details: "brand"
         }
@@ -168,7 +173,7 @@ app.directive("repeatEnd", function(){
 
 function ProductDetailController($scope, $http, $location) {
 	$scope.activeProductPage = $location.path().substring(1);
-	$http.get('/data/products.json').then(
+	$http.get('data/products.json').then(
 		function(response){
 			return $scope.products = response.data.data;
 		},

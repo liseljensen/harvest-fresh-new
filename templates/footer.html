@@ -1,5 +1,5 @@
 <!-- Main Footer  -->
-<footer class="main-footer">
+<footer class="main-footer" ng-class="{white:isHome}">
 <div class="footer-top">
   <div class="container">
     <!--  col -1  -->
@@ -26,20 +26,24 @@
       </div>
      
     </div>
-      <div class="col-md-offset-1 col-md-3">
+      <div class="col-md-offset-1 col-md-3" ng-if="!isGetStarted">
           <div class="widget-2">
               <h5>Contact Us</h5>
               <p>Get in touch for product samples or more information about Simplot Harvest Fresh Avocados.</p>
+			  <a class="btn btn-default" href="http://www.simplotfoods.com/contact?" target="_blank">Go to contact form</a>
           </div>
       </div>
-    <div class="col-md-offset-2 col-md-3">
+    <div class="col-md-offset-2 col-md-3 footer-brochure" ng-if="!isGetStarted">
             <div class="col-sm-12">
-                <img src="/images/brochure.jpg" alt="Brochure PDF Image" />
-            </div>
-            <div class="col-sm-12">
-                <h3>Download Brochure</h3>
+                <img src="images/brochure.jpg" alt="Brochure PDF Image" />
+				<a href="pdf/Simplot-Harvest-Fresh-Avocados-Brochure.pdf" target="_blank"><span>Download Brochure</span></a>
             </div>
         </div>
+	 <div class="col-md-offset-2 col-md-6" ng-if="isGetStarted">
+            <div class="col-sm-12">
+                <img src="images/footer-background.jpg" alt="Brochure PDF Image" />
+            </div>
+      </div>
     <!--  col -4  // -->
   </div>
 </div>
